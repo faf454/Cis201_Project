@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-image: url("background.png"); /* الباك قراوند */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  color: white; /* يخلي الكلام ابيض */
+}
+
+/* يخلي اللوقو بالنص */
+img {
+  display: block;
+  margin: 20px auto 10px auto;
+}
+
+/* ستايل ال Nav Bar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #e78d05; /* يخلي البار برتقالي */
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* الHeadings */
+h1, h2 {
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+}
+
+/* البراقراف */
+p {
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  margin: 8px;
+}
+
+/* لون اللنك */
+a {
+  color: #e78d05;
+}
+
+/* ازرار اضافة للسلة ومحو السلة */
+button {
+  background-color: #e78d05;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+

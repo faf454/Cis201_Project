@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Main Dishes - YU Pizzeria</title>
+  <link rel="stylesheet" type="text/css" href="mySheet.css">
+</head>
+<body>
+
+  <img width="100" height="100" src="YUPizzeria.png" alt="Logo">
+
+  <ul>
+    <li><a href="menu.html">Menu</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="sides.html">Side Dishes</a></li>
+    <li><a href="beverages.html">Beverages</a></li>
+  </ul>
+
+  <h1>Main Dishes</h1>
+
+  <p>Margherita Pizza — $12 <button onclick="addToCart('Margherita Pizza', 12)">Add to Cart</button></p>
+  <p>Ranch Pizza — $14 <button onclick="addToCart('Ranch Pizza', 14)">Add to Cart</button></p>
+  <p>BBQ Pizza — $15 <button onclick="addToCart('BBQ Pizza', 15)">Add to Cart</button></p>
+  <p>Four Cheese Pizza — $13 <button onclick="addToCart('Four Cheese Pizza', 13)">Add to Cart</button></p>
+
+  <h2>Your Cart</h2>
+  <ul id="cart"></ul>
+  <p id="total">Total: $0</p>
+  <button onclick="clearCart()">Clear Cart</button>
+
+  <script src="cart.js"></script>
+</body>
+</html>
